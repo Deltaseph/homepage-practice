@@ -1,0 +1,118 @@
+header {
+	background-color: White;
+	border: 5px solid #5f9ea0;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.CompanyTitle {
+	padding-bottom: 10px;
+	font-family: cambria;
+	text-align: left;
+}
+
+body {
+	background-color: DarkGray;	
+}
+
+img {
+    max-width: 100vw;
+	max-height: 50vw;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.Searchbar {
+	width: 100vw;
+	background-image: url('laptop-wallpaper-1920x1080.jpg');
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Searchbar input[type=text] {
+	padding-right: 10vw;
+	padding-left: 10vw;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	align-content: center;
+    border: none;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-size: 2vw;
+}
+
+.Introduction {
+	background-color: White;
+	color: CadetBlue;
+    border: 5px solid #5f9ea0;
+    text-align: center;
+	font-family: apercu;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Links {
+	text-align: center;
+	width: 100%;
+}
+
+.Link1 {
+	margin: auto;
+	width: 50%;
+	background-color: White;
+	color: CadetBlue;
+	border: 5px solid #5f9ea0;
+	text-align: center;
+	font-family: cambria;
+	margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.Link2 {
+	margin: auto;
+	width: 50%;
+	background-color: White;
+	color: CadetBlue;
+	border: 5px solid #5f9ea0;
+	text-align: center;
+	font-family: cambria;
+	margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.Link3 {
+	margin: auto;
+	width: 50%;
+	background-color: White;
+	color: CadetBlue;
+	border: 5px solid #5f9ea0;
+	text-align: center;
+	font-family: cambria;
+	margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .CompanyTitle, .Searchbar, .Link1, .Link2, .Link3 {
+    width: 95%;
+  }
+}
+
+footer {
+	margin-top: 10px;
+	text-align: center;
+}
